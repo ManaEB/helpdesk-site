@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-card">
+        <div class="login-hero">
+          <img class="login-hero-img" src="/img/login-hero.svg" alt="" />
+          <p class="login-hero-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+            esse incidunt delectus totam veniam vitae quibusdam neque.
+          </p>
+        </div>
+        <form action="">
+          <div class="type-sec">
+            <h6>Select Type</h6>
+            <div class="type-selector">
+              <input type="radio" name="login-type" id="type-supporter" />
+              <label for="type-supporter">IT Support</label>
+              <input
+                type="radio"
+                name="login-type"
+                id="type-employee"
+                checked
+              />
+              <label for="type-employee">Employee</label>
+            </div>
+          </div>
+
+          <h1>User Login</h1>
+
+          <fieldset class="login-input">
+            <div>
+              <img src="/img/user-icon.svg" alt="" />
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username"
+              />
+            </div>
+            <div>
+              <img src="/img/lock-icon.svg" alt="" />
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset class="login-opt">
+            <div>
+              <input
+                type="checkbox"
+                name="login-remember"
+                id="login-remember"
+              />
+              <label for="login-remember" class="checkbox">
+                <img src="/img/tick-icon.svg" alt="" />
+              </label>
+              <label for="login-remember">Remember</label>
+            </div>
+            <a href="# ">Forgot Password ?</a>
+          </fieldset>
+          <button type="submit">Login</button>
+          <a href="#">Create Account</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
